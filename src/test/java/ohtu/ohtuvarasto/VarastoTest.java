@@ -126,5 +126,5 @@ public class VarastoTest {
         Varasto uusi = new Varasto(4, 1);
         assertEquals(1, uusi.getSaldo(), vertailuTarkkuus);
     }
-
+    //testikommentti
 }
