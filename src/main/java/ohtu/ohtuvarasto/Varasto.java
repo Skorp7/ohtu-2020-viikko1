@@ -21,7 +21,7 @@ public class Varasto {
             this.tilavuus = tilavuus;
         }
         if (alkuSaldo > 0) {
-                this.saldo = Math.min(alkuSaldo, tilavuus);
+            this.saldo = Math.min(alkuSaldo, tilavuus);
         }
     }
 
