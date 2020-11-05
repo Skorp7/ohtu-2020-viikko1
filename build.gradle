@@ -1,7 +1,9 @@
 plugins {
     id 'application'
-    id 'jacoco' 
+    id 'jacoco'
+    id 'checkstyle'
 }
+
 
 repositories {
     jcenter() 
